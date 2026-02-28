@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chem-E-Sorption 2026 | IIT Jodhpur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        :root {
+            --primary-blue: #003366;
+            --accent-gold: #C5A059;
+            --deep-maroon: #800000;
+        }
+        .bg-primary { background-color: var(--primary-blue); }
+        .text-primary { color: var(--primary-blue); }
+        .bg-accent { background-color: var(--accent-gold); }
+        .bg-maroon { background-color: var(--deep-maroon); }
+        .text-maroon { color: var(--deep-maroon); }
+        
+        html { scroll-behavior: smooth; }
+
+        .hover-lift { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .hover-lift:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        
+        .nav-link { position: relative; font-weight: 700; }
+        .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 0; background-color: var(--deep-maroon); transition: width 0.3s; }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 leading-relaxed">
+
+    <!-- NAVIGATION Bar -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="https://iitj.ac.in/PageImages/Pages/07-2024/7c4476a7-7b88-4e13-a3c2-786774ab5203.jpg" alt="IITJ" class="h-12 w-auto">
+                <div class="hidden md:block border-l-2 border-slate-200 pl-3">
+                    <h1 class="font-extrabold text-primary text-lg tracking-tighter uppercase leading-none">Chem-E-Sorption <span class="text-accent-gold">2026</span></h1>
+                    <p class="text-[10px] font-bold text-slate-400 tracking-widest uppercase">IIT Jodhpur</p>
+                </div>
+            </div>
+            
+            <div class="hidden lg:flex space-x-6 font-bold text-[11px] uppercase tracking-widest text-slate-600">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#highlights" class="nav-link">Highlights</a>
+                <a href="#registration" class="nav-link">Registration</a>
+                <a href="#committee" class="nav-link">Committee</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="flex items-center space-x-2">
+                <a href="https://forms.gle/ND9m41cxSxup5Xnm6" target="_blank" class="bg-maroon text-white px-5 py-2 rounded-full font-black text-[10px] uppercase tracking-tighter hover:bg-red-900 transition-all shadow-md">Submit Abstract</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO Section -->
+    <header class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden text-white text-center">
+        <div class="absolute inset-0 bg-slate-900">
+            <img src="https://images.unsplash.com/photo-1532187875605-2fe358511423?auto=format&fit=crop&q=80" class="w-full h-full object-cover opacity-30" alt="Laboratory">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-primary/80 to-maroon/90"></div>
+
+        <div class="relative z-10 container mx-auto px-6">
+            <!-- Logos Container -->
+            <div class="inline-flex flex-wrap items-center justify-center gap-8 bg-white/10 backdrop-blur-xl p-6 rounded-[2rem] border border-white/20 mb-8">
+                <div class="text-center group">
+                    <img src="https://iitj.ac.in/PageImages/Pages/07-2024/7c4476a7-7b88-4e13-a3c2-786774ab5203.jpg" alt="IITJ" class="h-16 md:h-20 rounded-lg group-hover:scale-105 transition-transform">
+                </div>
+                <div class="h-12 w-px bg-white/20"></div>
+                <div class="text-center group">
+                    <img src="https://iiche.org.in/images/logo.png" alt="IIChE" class="h-16 md:h-20 bg-white rounded-full p-2">
+                </div>
+                <div class="h-12 w-px bg-white/20"></div>
+                <div class="text-center group">
+                    <img src="https://hydrogentechworld.com/wp-content/uploads/sites/22/2024/03/AIChE-2048x1365.jpg" alt="AIChE" class="h-16 md:h-20 bg-white rounded-lg object-contain p-1">
+                </div>
+            </div>
+
+            <h2 class="text-accent-gold font-bold tracking-[0.4em] uppercase text-xs md:text-sm mb-4">Technical Research Summit | Third Edition</h2>
+            <h1 class="text-5xl md:text-8xl font-black mb-4 tracking-tighter uppercase leading-none">Chem-E-Sorption</h1>
+            <p class="text-xl md:text-2xl font-light italic text-slate-200 mb-10 tracking-widest uppercase">“Sustainable Chemical Engineering”</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
+                <div class="bg-white/10 border border-white/20 px-8 py-3 rounded-2xl backdrop-blur-md">
+                    <p class="text-accent-gold text-[10px] font-bold uppercase mb-1">Summit Date</p>
+                    <p class="text-xl font-bold">March 16th, 2026</p>
+                </div>
+                <div class="bg-white/10 border border-white/20 px-8 py-3 rounded-2xl backdrop-blur-md">
+                    <p class="text-accent-gold text-[10px] font-bold uppercase mb-1">Campus Venue</p>
+                    <p class="text-xl font-bold">IIT Jodhpur, Karwar</p>
+                </div>
+            </div>
+
+            <!-- DUAL BUTTONS -->
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://forms.gle/ND9m41cxSxup5Xnm6" target="_blank" class="bg-accent text-primary px-8 py-4 rounded-full font-black text-sm uppercase tracking-tighter hover:bg-white transition-all transform hover:scale-105 shadow-2xl">
+                    <i class="fas fa-file-alt mr-2"></i> Submit Abstract
+                </a>
+                <button onclick="alert('Registration will open soon! Please check back later.')" class="bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-full font-black text-sm uppercase tracking-tighter hover:bg-white hover:text-primary transition-all transform hover:scale-105">
+                    <i class="fas fa-user-plus mr-2"></i> Register (Soon)
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 bg-white relative">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="bg-maroon text-white p-12 rounded-[2.5rem] shadow-2xl hover-lift">
+                    <h2 class="text-3xl font-black mb-6 uppercase border-b border-accent-gold/30 pb-4">About the Event</h2>
+                    <p class="leading-relaxed mb-6 opacity-90">
+                        The Department of Chemical Engineering, IIT Jodhpur, proudly presents the third edition of <span class="font-bold text-accent-gold">Chem-E-Sorption 2026</span>. This premier technical event features innovative competitions, expert lectures, and a dynamic environment for learning and collaboration. 
+                    </p>
+                    <p class="leading-relaxed opacity-90 italic">
+                        Designed for aspiring chemical engineers and research scholars, it bridges the gap between theory and practice, offering participants the opportunity to tackle real-world challenges.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-primary font-bold uppercase tracking-widest text-xs mb-2">IIT Jodhpur Focus</h3>
+                    <h2 class="text-4xl font-black text-slate-900 mb-6 uppercase leading-tight">Department of <br><span class="text-maroon underline decoration-accent-gold decoration-4">Chemical Engineering</span></h2>
+                    <p class="text-slate-600 mb-8 leading-relaxed">
+                        Offering undergraduate (B.Tech.) and post-graduate (M.Tech., and Ph.D.) programs, the department involves traditional courses and emerging specialisations such as <span class="font-bold text-primary">process engineering, intelligence, molecular engineering, and sustainability.</span>
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 font-bold text-sm text-primary">
+                        <div class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl"><i class="fas fa-check-circle text-accent-gold"></i> <span>MoU with Industries</span></div>
+                        <div class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl"><i class="fas fa-check-circle text-accent-gold"></i> <span>DRDO & IAEA Partners</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-center text-3xl font-black text-primary mb-12 uppercase tracking-tighter">Event Highlights</h2>
+            <div class="grid md:grid-cols-4 gap-6 text-center">
+                <div class="bg-white p-8 rounded-3xl shadow-sm border-b-4 border-maroon hover-lift">
+                    <i class="fas fa-building text-3xl text-maroon mb-4"></i>
+                    <h4 class="font-bold uppercase text-sm mb-2">Industrial Talk</h4>
+                    <p class="text-xs text-slate-500">Insights from industry leaders.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm border-b-4 border-maroon hover-lift">
+                    <i class="fas fa-chalkboard-teacher text-3xl text-maroon mb-4"></i>
+                    <h4 class="font-bold uppercase text-sm mb-2">Academic Talk</h4>
+                    <p class="text-xs text-slate-500">Expert lectures by academicians.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm border-b-4 border-maroon hover-lift">
+                    <i class="fas fa-scroll text-3xl text-maroon mb-4"></i>
+                    <h4 class="font-bold uppercase text-sm mb-2">Poster Sessions</h4>
+                    <p class="text-xs text-slate-500">Visual research presentations.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm border-b-4 border-maroon hover-lift">
+                    <i class="fas fa-microphone text-3xl text-maroon mb-4"></i>
+                    <h4 class="font-bold uppercase text-sm mb-2">Oral Pitch</h4>
+                    <p class="text-xs text-slate-500">Competitive oral presentations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REGISTRATION & DATES -->
+    <section id="registration" class="py-24 bg-primary text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-5xl mx-auto">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-4xl font-black uppercase text-accent-gold mb-6">Important Dates</h2>
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-6 p-4 bg-white/5 rounded-2xl border border-white/10">
+                                <span class="bg-accent text-primary w-14 h-14 rounded-full flex items-center justify-center font-black text-xl">07</span>
+                                <div><p class="text-xs font-bold uppercase opacity-60">Abstract Submission Ends</p><p class="text-xl font-bold">March 7th, 2026</p></div>
+                            </div>
+                            <div class="flex items-center space-x-6 p-4 bg-white/5 rounded-2xl border border-white/10">
+                                <span class="bg-accent text-primary w-14 h-14 rounded-full flex items-center justify-center font-black text-xl">09</span>
+                                <div><p class="text-xs font-bold uppercase opacity-60">Abstract Acceptance</p><p class="text-xl font-bold">March 9th, 2026</p></div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                             <a href="https://forms.gle/ND9m41cxSxup5Xnm6" target="_blank" class="inline-block bg-accent text-primary font-black px-8 py-3 rounded-xl uppercase text-sm hover:bg-white transition-all shadow-xl">Submit My Abstract</a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-10 rounded-[3rem] text-primary shadow-2xl">
+                        <h3 class="text-2xl font-black uppercase mb-6 text-maroon">Registration Fees</h3>
+                        <p class="text-xs font-bold text-slate-400 mb-6 uppercase tracking-widest">+18% GST Applicable</p>
+                        <div class="space-y-4 font-bold">
+                            <div class="flex justify-between border-b border-slate-100 pb-2"><span>Industry</span><span>₹ 5900</span></div>
+                            <div class="flex justify-between border-b border-slate-100 pb-2"><span>Academia</span><span>₹ 2360</span></div>
+                            <div class="flex justify-between text-maroon text-xl font-black"><span>Students</span><span>₹ 1180</span></div>
+                        </div>
+                        <button onclick="alert('Registration opening soon!')" class="w-full mt-8 bg-maroon text-white font-black py-4 rounded-xl hover:bg-slate-800 transition-colors uppercase tracking-widest text-sm shadow-lg">Registration Opening Soon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMMITTEE SECTION -->
+    <section id="committee" class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black text-primary mb-16 uppercase">Organizing Committee</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user-tie text-4xl text-slate-300"></i></div>
+                    <h4 class="font-bold text-xs uppercase leading-tight">Prof. Parag Arvind Deshpande</h4>
+                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Convener</p>
+                </div>
+                <div>
+                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user text-4xl text-slate-300"></i></div>
+                    <h4 class="font-bold text-xs uppercase leading-tight">Dr. Tara Chand Kumawat</h4>
+                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
+                </div>
+                <div>
+                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user text-4xl text-slate-300"></i></div>
+                    <h4 class="font-bold text-xs uppercase leading-tight">Dr. Manoj Kumar Jena</h4>
+                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
+                </div>
+                <div>
+                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user text-4xl text-slate-300"></i></div>
+                    <h4 class="font-bold text-xs uppercase leading-tight">Dr. Santosh Kumar Varanasi</h4>
+                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="bg-slate-900 text-white pt-20 pb-10">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-3 gap-12 mb-16">
+                <!-- Col 1: Brand -->
+                <div class="space-y-6">
+                    <img src="https://iitj.ac.in/PageImages/Pages/07-2024/7c4476a7-7b88-4e13-a3c2-786774ab5203.jpg" alt="IITJ" class="h-16 brightness-0 invert opacity-50">
+                    <p class="text-slate-400 text-sm italic font-medium">Sustainable Chemical Engineering 2026. Join the brightest minds at the Indian Institute of Technology Jodhpur.</p>
+                </div>
+                <!-- Col 2: Contact Info -->
+                <div class="space-y-4">
+                    <h4 class="font-black text-accent-gold uppercase tracking-widest text-xs mb-4">Contact Details</h4>
+                    <p class="text-slate-300 text-sm font-bold flex items-center"><i class="fas fa-phone mr-3 text-accent-gold"></i> 0291-2801702</p>
+                    <p class="text-slate-300 text-sm font-bold flex items-center"><i class="fas fa-envelope mr-3 text-accent-gold"></i> office_che@iitj.ac.in</p>
+                    <p class="text-slate-300 text-sm font-bold flex items-center"><i class="fas fa-globe mr-3 text-accent-gold"></i> www.iitj.ac.in</p>
+                </div>
+                <!-- Col 3: Location (No more empty box) -->
+                <div>
+                    <h4 class="font-black text-accent-gold uppercase tracking-widest text-xs mb-4">Mailing Address</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed font-bold uppercase">
+                        Department of Chemical Engineering,<br>
+                        Chemical & Materials Engineering Building,<br>
+                        IIT Jodhpur, NH-62, Nagaur Road, Karwar,<br>
+                        Jodhpur 342030, Rajasthan, India
+                    </p>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-white/5 text-center text-[10px] text-slate-500 font-black tracking-[0.4em] uppercase">
+                &copy; 2026 Chem-E-Sorption | IIT JODHPUR | AICHE | IICHE
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
