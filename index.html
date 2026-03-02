@@ -100,9 +100,10 @@
                 <a href="https://forms.gle/ND9m41cxSxup5Xnm6" target="_blank" class="bg-accent text-primary px-8 py-4 rounded-full font-black text-sm uppercase tracking-tighter hover:bg-white transition-all transform hover:scale-105 shadow-2xl">
                     <i class="fas fa-file-alt mr-2"></i> Submit Abstract
                 </a>
-                <button onclick="alert('Registration will open soon! Please check back later.')" class="bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-full font-black text-sm uppercase tracking-tighter hover:bg-white hover:text-primary transition-all transform hover:scale-105">
-                    <i class="fas fa-user-plus mr-2"></i> Register (Soon)
-                </button>
+                <!-- Updated Register button -->
+                <a href="https://forms.gle/L9GqfyWF8PVAq59F8" target="_blank" class="bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-full font-black text-sm uppercase tracking-tighter hover:bg-white hover:text-primary transition-all transform hover:scale-105">
+                    <i class="fas fa-user-plus mr-2"></i> Register
+                </a>
             </div>
         </div>
     </header>
@@ -166,70 +167,102 @@
     </section>
 
     <!-- REGISTRATION & DATES -->
-    <section id="registration" class="py-24 bg-primary text-white">
-        <div class="container mx-auto px-6">
-            <div class="max-w-5xl mx-auto">
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-4xl font-black uppercase text-accent-gold mb-6">Important Dates</h2>
-                        <div class="space-y-6">
-                            <div class="flex items-center space-x-6 p-4 bg-white/5 rounded-2xl border border-white/10">
-                                <span class="bg-accent text-primary w-14 h-14 rounded-full flex items-center justify-center font-black text-xl">07</span>
-                                <div><p class="text-xs font-bold uppercase opacity-60">Abstract Submission Ends</p><p class="text-xl font-bold">March 7th, 2026</p></div>
-                            </div>
-                            <div class="flex items-center space-x-6 p-4 bg-white/5 rounded-2xl border border-white/10">
-                                <span class="bg-accent text-primary w-14 h-14 rounded-full flex items-center justify-center font-black text-xl">09</span>
-                                <div><p class="text-xs font-bold uppercase opacity-60">Abstract Acceptance</p><p class="text-xl font-bold">March 9th, 2026</p></div>
+<section id="registration" class="py-24 bg-primary text-white">
+    <div class="container mx-auto px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Important Dates & Abstract -->
+                <div>
+                    <h2 class="text-4xl font-black uppercase text-accent-gold mb-6">Important Dates</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-6 p-4 bg-white/5 rounded-2xl border border-white/10">
+                            <span class="bg-accent text-primary w-14 h-14 rounded-full flex items-center justify-center font-black text-xl">07</span>
+                            <div>
+                                <p class="text-xs font-bold uppercase opacity-60">Abstract Submission Ends</p>
+                                <p class="text-xl font-bold">March 7th, 2026</p>
                             </div>
                         </div>
-                        <div class="mt-8">
-                             <a href="https://forms.gle/ND9m41cxSxup5Xnm6" target="_blank" class="inline-block bg-accent text-primary font-black px-8 py-3 rounded-xl uppercase text-sm hover:bg-white transition-all shadow-xl">Submit My Abstract</a>
+                        <div class="flex items-center space-x-6 p-4 bg-white/5 rounded-2xl border border-white/10">
+                            <span class="bg-accent text-primary w-14 h-14 rounded-full flex items-center justify-center font-black text-xl">09</span>
+                            <div>
+                                <p class="text-xs font-bold uppercase opacity-60">Abstract Acceptance</p>
+                                <p class="text-xl font-bold">March 9th, 2026</p>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="bg-white p-10 rounded-[3rem] text-primary shadow-2xl">
-                        <h3 class="text-2xl font-black uppercase mb-6 text-maroon">Registration Fees</h3>
-                        <p class="text-xs font-bold text-slate-400 mb-6 uppercase tracking-widest">+18% GST Applicable</p>
-                        <div class="space-y-4 font-bold">
-                            <div class="flex justify-between border-b border-slate-100 pb-2"><span>Industry</span><span>₹ 5900</span></div>
-                            <div class="flex justify-between border-b border-slate-100 pb-2"><span>Academia</span><span>₹ 2360</span></div>
-                            <div class="flex justify-between text-maroon text-xl font-black"><span>Students</span><span>₹ 1180</span></div>
-                        </div>
-                        <button onclick="alert('Registration opening soon!')" class="w-full mt-8 bg-maroon text-white font-black py-4 rounded-xl hover:bg-slate-800 transition-colors uppercase tracking-widest text-sm shadow-lg">Registration Opening Soon</button>
+                    <div class="mt-8">
+                        <!-- Abstract Submission Link -->
+                        <a href="https://forms.gle/B2nvPVxs3odc8HZz6" target="_blank" class="inline-block bg-accent text-primary font-black px-8 py-3 rounded-xl uppercase text-sm hover:bg-white transition-all shadow-xl">Submit My Abstract</a>
                     </div>
                 </div>
+                
+                <!-- Registration Fees & Link -->
+                <div class="bg-white p-10 rounded-[3rem] text-primary shadow-2xl">
+                    <h3 class="text-2xl font-black uppercase mb-6 text-maroon">Registration Fees</h3>
+                    <!-- <p class="text-xs font-bold text-slate-400 mb-6 uppercase tracking-widest">+18% GST Applicable</p> -->
+                    <div class="space-y-4 font-bold">
+                        <div class="flex justify-between border-b border-slate-100 pb-2"><span>Industry</span><span>₹ 5900</span></div>
+                        <div class="flex justify-between border-b border-slate-100 pb-2"><span>Academia</span><span>₹ 2360</span></div>
+                        <div class="flex justify-between text-maroon text-xl font-black"><span>Students</span><span>₹ 1180</span></div>
+                    </div>
+                    <!-- Registration Link -->
+                    <div class="mt-8">
+                        <a href="https://forms.gle/L9GqfyWF8PVAq59F8" target="_blank" class="w-full inline-block text-center bg-maroon text-white font-black py-4 rounded-xl hover:bg-slate-800 transition-colors uppercase tracking-widest text-sm shadow-lg">Register Now</a>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
+</section>
     </section>
 
-    <!-- COMMITTEE SECTION -->
-    <section id="committee" class="py-24 bg-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-black text-primary mb-16 uppercase">Organizing Committee</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                <div>
-                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user-tie text-4xl text-slate-300"></i></div>
-                    <h4 class="font-bold text-xs uppercase leading-tight">Prof. Parag Arvind Deshpande</h4>
-                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Convener</p>
+<!-- COMMITTEE SECTION -->
+<section id="committee" class="py-24 bg-white">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-black text-primary mb-16 uppercase">Organizing Committee</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
+            
+            <!-- Prof. Parag Arvind Deshpande -->
+            <div>
+                <div class="w-32 h-36 mx-auto mb-4 rounded-[2rem] overflow-hidden border-2 border-slate-100 shadow-lg bg-slate-100 flex items-start justify-center">
+                    <img src="images/Parag_Arvind_Deshpande.jpg" alt="Prof. Parag Arvind Deshpande" class="h-full w-auto object-contain">
                 </div>
-                <div>
-                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user text-4xl text-slate-300"></i></div>
-                    <h4 class="font-bold text-xs uppercase leading-tight">Dr. Tara Chand Kumawat</h4>
-                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
-                </div>
-                <div>
-                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user text-4xl text-slate-300"></i></div>
-                    <h4 class="font-bold text-xs uppercase leading-tight">Dr. Manoj Kumar Jena</h4>
-                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
-                </div>
-                <div>
-                    <div class="w-32 h-32 bg-slate-100 rounded-[2rem] mx-auto mb-4 flex items-center justify-center border-2 border-slate-50"><i class="fas fa-user text-4xl text-slate-300"></i></div>
-                    <h4 class="font-bold text-xs uppercase leading-tight">Dr. Santosh Kumar Varanasi</h4>
-                    <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
-                </div>
+                <h4 class="font-bold text-xs uppercase leading-tight">Prof. Parag Arvind Deshpande</h4>
+                <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Convener</p>
             </div>
+
+            <!-- Dr. Tara Chand Kumawat -->
+            <div>
+                <div class="w-32 h-36 mx-auto mb-4 rounded-[2rem] overflow-hidden border-2 border-slate-100 shadow-lg bg-slate-100 flex items-start justify-center">
+                    <img src="images/Tara_Chand_Kumawat.jpg" alt="Dr. Tara Chand Kumawat" class="h-full w-auto object-contain">
+                </div>
+                <h4 class="font-bold text-xs uppercase leading-tight">Dr. Tara Chand Kumawat</h4>
+                <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
+            </div>
+
+            <!-- Dr. Manoj Kumar Jena -->
+            <div>
+                <div class="w-32 h-36 mx-auto mb-4 rounded-[2rem] overflow-hidden border-2 border-slate-100 shadow-lg bg-slate-100 flex items-start justify-center">
+                    <img src="images/Manoj_Jena.jpg" alt="Dr. Manoj Kumar Jena" class="h-full w-auto object-contain">
+                </div>
+                <h4 class="font-bold text-xs uppercase leading-tight">Dr. Manoj Kumar Jena</h4>
+                <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
+            </div>
+
+            <!-- Dr. Santosh Kumar Varanasi -->
+            <div>
+                <div class="w-32 h-36 mx-auto mb-4 rounded-[2rem] overflow-hidden border-2 border-slate-100 shadow-lg bg-slate-100 flex items-start justify-center">
+                    <img src="images/Santosh_Kumar_Varanasi.jpg" alt="Dr. Santosh Kumar Varanasi" class="h-full w-auto object-contain">
+                </div>
+                <h4 class="font-bold text-xs uppercase leading-tight">Dr. Santhosh Kumar Varanasi</h4>
+                <p class="text-maroon text-[9px] font-black tracking-widest uppercase mt-1">Co-Convener</p>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- FOOTER -->
     <footer id="contact" class="bg-slate-900 text-white pt-20 pb-10">
